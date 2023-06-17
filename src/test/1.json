@@ -1,0 +1,163 @@
+{
+  "requestContext": {
+    "http": {
+      "method": "POST"
+    }
+  },
+  "pathParameters": null,
+  "queryStringParameters": null,
+  "body": "{
+  "airWaybill": {
+    "awbNumber": "123456789",
+    "owner": "BA",
+    "prefix": "125"
+  },
+  "customerPreferences": {
+    "customerName": "TEST",
+    "ChargeableWeightForOptima": 61.51,
+    "CustomerChargeableWeight": 0,
+    "accountId": "1234567890ABCDEFIK",
+    "accountNumber": null,
+    "chargeableWeight": 61.51,
+    "contactId": "",
+    "currencyCode": "USD",
+    "customerCountry": "United States",
+    "exchangeRateUsed": 1.2054298642533938,
+    "iata": "91472500000",
+    "iataCassCode": "9147250",
+    "measureUnit": "in",
+    "officeNumber": "0013",
+    "requestingStation": "LHR",
+    "specialHandlingCodes": ",NST,SCB",
+    "totalWeight": 23,
+    "volume": 0.36903668127999995,
+    "volumeUnit": "m3",
+    "weightUnit": "kg"
+  },
+  "bookingType": {
+    "Multilinebooking": false,
+    "allotments": {
+      "allocation": false,
+      "blockSpaceAgreement": false
+    },
+    "commodityCode": "4211",
+    "commodityName": "AUTO SUPPLIES",
+    "loadType": "LOOSE",
+    "product": "PERFORM",
+    "specialHandlingCodes": [
+      {
+        "shc": ""
+      },
+      {
+        "shc": "NST"
+      },
+      {
+        "shc": "SCB"
+      }
+    ],
+    "specialHandlings": null,
+    "upsellProduct": null,
+    "upsellSpecialHandlingCodes": null
+  },
+  "isForChangebooking": false,
+  "quote": {
+    "agentRoute": null,
+    "costPerWeightUnit": 5.170053649813038,
+    "currencyCode": "USD",
+    "density": null,
+    "distance": null,
+    "isMsr": false,
+    "minimumSellingRevenue": null,
+    "product": null,
+    "requirements": null,
+    "requirementsList": null,
+    "source": null,
+    "totalCost": 318.01,
+    "volume": null,
+    "weightUnit": "kg"
+  },
+  "route": {
+    "checkCapacity": true,
+    "checkRate": false,
+    "departureDate": "2023-03-12",
+    "destination": "MLE",
+    "destinationId": null,
+    "latestArrivalDate": null,
+    "maxConnectionsPerRoute": "5",
+    "maxRoutesReturned": "50",
+    "origin": "ATL",
+    "originId": null,
+    "via": null
+  },
+  "segments": [
+    {
+      "aircraftType": "77R",
+      "arrivalDateTime": "2023-03-13T10:40:00.000Z",
+      "availableSegmentCapacity": null,
+      "carrierCode": null,
+      "departureDateTime": "2023-03-12T22:45:00.000Z",
+      "destination": "LHR",
+      "externalRouteNumber": "11ec6da2-ff9d-5f03-0267-e928b4b01d1e",
+      "flightNumber": null,
+      "latestArrivalDate": null,
+      "origin": "ATL",
+      "sfRouteId": "a1s69000004k9M3AAI",
+      "uniqueSegmentNumber": "11ec6da2-ff9d-5f03-0267-e928b4b01d1e-1"
+    },
+    {
+      "aircraftType": "77H",
+      "arrivalDateTime": "2023-03-15T09:40:00.000Z",
+      "availableSegmentCapacity": null,
+      "carrierCode": null,
+      "departureDateTime": "2023-03-14T18:20:00.000Z",
+      "destination": "MLE",
+      "externalRouteNumber": "11ec6da2-ff9d-5f03-0267-e928b4b01d1e",
+      "flightNumber": "BA0061",
+      "latestArrivalDate": null,
+      "origin": "LHR",
+      "sfRouteId": "a1s69000004k9M3AAI",
+      "uniqueSegmentNumber": "11ec6da2-ff9d-5f03-0267-e928b4b01d1e-2"
+    }
+  ],
+  "sfAccountId": "1234567890ABCDEFIK",
+  "sfContactId": "1234567890ABCDEFIK",
+  "sfEnquiryId": "1234567890ABCDEFIK",
+  "sfOpportunityId": "1234567890ABCDEFIK",
+  "sfQuoteId": "a1q69000005CrTWAA0",
+  "shipment": {
+    "chargeableWeight": null,
+    "dangerousGoods": null,
+    "pieces": [
+      {
+        "height": 10,
+        "length": 12,
+        "pieceCount": 1,
+        "tempId": "1678316661473",
+        "volume": 0.019664476799999997,
+        "weight": 7.666666666666667,
+        "width": 10
+      },
+      {
+        "height": 14,
+        "length": 14,
+        "pieceCount": 1,
+        "tempId": "1678316665300",
+        "volume": 0.032118645439999996,
+        "weight": 7.666666666666667,
+        "width": 10
+      },
+      {
+        "height": 20,
+        "length": 44,
+        "pieceCount": 1,
+        "tempId": "1678316668553",
+        "volume": 0.31725355903999997,
+        "weight": 7.666666666666667,
+        "width": 22
+      }
+    ],
+    "totalVolume": null,
+    "totalWeight": null
+  }
+}"
+}

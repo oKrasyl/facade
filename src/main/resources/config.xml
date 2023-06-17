@@ -1,0 +1,5 @@
+<bean id="personBean" class="com.example.Person">
+    <property name="firstName" value="John"/>
+    <property name="lastName" value="Doe"/>
+    <property name="age" value="30"/>
+</bean>

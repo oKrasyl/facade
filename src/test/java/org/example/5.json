@@ -1,0 +1,11 @@
+{
+  "body": "[{\"destination\":\"KEF\",\"resultSet\":\"first\"}]",
+  "headers": {"ba_client_applicationName": "RogerE"},
+  "queryStringParameters": {},
+  "requestContext": {
+    "http": {
+      "method": "POST",
+      "path": "/interlinehub/availableroutes"
+    }
+  }
+}
