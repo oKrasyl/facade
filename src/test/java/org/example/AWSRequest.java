@@ -20,7 +20,7 @@ public class AWSRequest {
     public static void main(String[] args) throws JsonProcessingException {
 
         // Set up AWS credentials
-        AwsBasicCredentials credentials = AwsBasicCredentials.create("AKIA2B7GNNIR3TK2ZQW5", "7W6uJJPSSncx8yVDr1HPlN+wtduhkBqoM9vcTczX");
+        AwsBasicCredentials credentials = AwsBasicCredentials.create("AKIA", "_");
 
         // Set up AWS Lambda client
         LambdaClient lambdaClient = LambdaClient.builder()

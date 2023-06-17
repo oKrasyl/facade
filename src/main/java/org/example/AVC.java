@@ -99,14 +99,12 @@ public class AVC {
 //        System.out.println(a.hashCode());
 //        List list = new ArrayList();
 
-
         String str = "C, C++, Java, C#, Kotlin";
         char ch = ',';
 
         int index = -1;
         while ((index = str.indexOf(ch, index + 1)) != -1) {
             System.out.println(index);
-
 
     }}
 
@@ -151,15 +149,6 @@ public class AVC {
         return new String(sArray);
    }
 
-    public static Boolean isPalindrome(String s){
-        char[] sArray = s.toCharArray();
-        for (int i = 0; i<sArray.length/2; i++){
-            if (sArray[i] !=sArray[sArray.length-1-i] )
-                return false;
-        }
-        return true;
-    }
-
     public static void bubbleSort(int[] arr){
         for(int i =0; i< arr.length-1; i++){
             for (int j = 0; j<arr.length - i-1; j++){
@@ -179,5 +168,14 @@ public class AVC {
             inputArray[right] = tmp;
         }
         return inputArray;
+    }
+
+    public static boolean isPalindrome(String s){
+        char[] sArray = s.toCharArray();
+        for (int i = 0; i < sArray.length/2; i++) {
+            if (sArray[i] != sArray[sArray.length -1 -i]){
+                return false;
+            }
+        } return true;
     }
 }
